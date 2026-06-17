@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="0.602" tests="10" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="23"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/eslammamdouh/qa-pipeline-demo/qa-pipeline-demo/target/test-classes:/Users/eslammamdouh/qa-pipeline-demo/qa-pipeline-demo/target/classes:/Users/eslammamdouh/.m2/repository/org/testng/testng/7.9.0/testng-7.9.0.jar:/Users/eslammamdouh/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/eslammamdouh/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/eslammamdouh/.m2/repository/org/webjars/jquery/3.7.1/jquery-3.7.1.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Africa/Cairo"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="23"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="EG"/>
+    <property name="sun.boot.library.path" value="/Users/eslammamdouh/Library/Java/JavaVirtualMachines/openjdk-23.0.2/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/eslammamdouh/qa-pipeline-demo/qa-pipeline-demo/target/surefire/surefirebooter-20260617173957827_3.jar /Users/eslammamdouh/qa-pipeline-demo/qa-pipeline-demo/target/surefire 2026-06-17T17-39-57_737-jvmRun1 surefire-20260617173957827_1tmp surefire_0-20260617173957827_2tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/eslammamdouh/qa-pipeline-demo/qa-pipeline-demo/target/test-classes:/Users/eslammamdouh/qa-pipeline-demo/qa-pipeline-demo/target/classes:/Users/eslammamdouh/.m2/repository/org/testng/testng/7.9.0/testng-7.9.0.jar:/Users/eslammamdouh/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/eslammamdouh/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/eslammamdouh/.m2/repository/org/webjars/jquery/3.7.1/jquery-3.7.1.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/eslammamdouh"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-01-21"/>
+    <property name="java.home" value="/Users/eslammamdouh/Library/Java/JavaVirtualMachines/openjdk-23.0.2/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/eslammamdouh/qa-pipeline-demo/qa-pipeline-demo"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="apple.awt.application.name" value="ForkedBooter"/>
+    <property name="surefire.real.class.path" value="/Users/eslammamdouh/qa-pipeline-demo/qa-pipeline-demo/target/surefire/surefirebooter-20260617173957827_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="23.0.2+7-58"/>
+    <property name="user.name" value="eslammamdouh"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="15.7.7"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="/Users/eslammamdouh/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/36/3fvh44154h15mjc8xy7rbqxw0000gn/T/"/>
+    <property name="java.version" value="23.0.2"/>
+    <property name="user.dir" value="/Users/eslammamdouh/qa-pipeline-demo/qa-pipeline-demo"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/eslammamdouh/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="suite" value="src/test/resources/regression-suite.xml"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="23.0.2+7-58"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="67.0"/>
+  </properties>
+  <testcase name="verifyAddToCart" classname="com.eslam.qa.RegressionTests" time="0.007">
+    <system-out><![CDATA[✅ REGRESSION 5: Add to cart works
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
+  </testcase>
+  <testcase name="verifyCheckout" classname="com.eslam.qa.RegressionTests" time="0.0">
+    <system-out><![CDATA[✅ REGRESSION 6: Checkout flow works
+]]></system-out>
+  </testcase>
+  <testcase name="verifyNotifications" classname="com.eslam.qa.RegressionTests" time="0.001">
+    <system-out><![CDATA[✅ REGRESSION 10: Notifications work
+]]></system-out>
+  </testcase>
+  <testcase name="verifyOrderHistory" classname="com.eslam.qa.RegressionTests" time="0.001">
+    <system-out><![CDATA[✅ REGRESSION 8: Order history loads
+]]></system-out>
+  </testcase>
+  <testcase name="verifyPaymentGateway" classname="com.eslam.qa.RegressionTests" time="0.001">
+    <system-out><![CDATA[✅ REGRESSION 7: Payment gateway responds
+]]></system-out>
+  </testcase>
+  <testcase name="verifyProductPage" classname="com.eslam.qa.RegressionTests" time="0.001">
+    <system-out><![CDATA[✅ REGRESSION 4: Product page loads
+]]></system-out>
+  </testcase>
+  <testcase name="verifyProfileUpdate" classname="com.eslam.qa.RegressionTests" time="0.001">
+    <system-out><![CDATA[✅ REGRESSION 9: Profile update works
+]]></system-out>
+  </testcase>
+  <testcase name="verifySearchResults" classname="com.eslam.qa.RegressionTests" time="0.002">
+    <system-out><![CDATA[✅ REGRESSION 3: Search returns results
+]]></system-out>
+  </testcase>
+  <testcase name="verifyUserLogin" classname="com.eslam.qa.RegressionTests" time="0.001">
+    <system-out><![CDATA[✅ REGRESSION 1: User login works
+]]></system-out>
+  </testcase>
+  <testcase name="verifyUserLogout" classname="com.eslam.qa.RegressionTests" time="0.001">
+    <system-out><![CDATA[✅ REGRESSION 2: User logout works
+]]></system-out>
+  </testcase>
+</testsuite>
