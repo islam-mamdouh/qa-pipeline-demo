@@ -20,7 +20,7 @@ jobs:
           distribution: 'temurin'
 
       - name: Run Regression Tests
-        run: mvn test -Dsuite=src/test/resources/regression-suite.xml
+        run: mvn test -Dgroups=regression
 
       - name: Upload Regression Reports
         if: always()
@@ -44,7 +44,7 @@ jobs:
           distribution: 'temurin'
 
       - name: Run Smoke Tests Again
-        run: mvn test -Dsuite=src/test/resources/smoke-suite.xml
+        run: mvn test -Dgroups=smoke
 
       - name: Upload Smoke Reports
         if: always()
