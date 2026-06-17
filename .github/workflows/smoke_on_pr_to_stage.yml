@@ -20,7 +20,7 @@ jobs:
           distribution: 'temurin'
 
       - name: Run Smoke Tests
-        run: mvn test -Dsuite=src/test/resources/smoke-suite.xml
+        run: mvn test -Dsuite=${{ github.workspace }}/src/test/resources/smoke-suite.xml
 
       - name: Upload Surefire Reports
         if: always()
